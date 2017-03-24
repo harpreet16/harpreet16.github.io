@@ -93,7 +93,7 @@ src:url("Raleway/Raleway-Bold.ttf");
     color:#4b4c4f;
 }
 
-#a
+.a
 {
     display: block;
     background: black;
@@ -859,7 +859,7 @@ src:url("Raleway/Raleway-Bold.ttf");
     .overlay a{
         font-size: 25px;
     }
-   #a{
+   .a{
         font-size:5px;
     }
     .b{
@@ -979,7 +979,7 @@ src:url("Raleway/Raleway-Bold.ttf");
     .overlay a{
         font-size: 20px;
     }
-    #a{
+    .a{
         font-size:5px;
         padding :8px;
     }
@@ -1093,7 +1093,7 @@ src:url("Raleway/Raleway-Bold.ttf");
     .overlay a{
         font-size: 18px;
     }
-   #a{
+   .a{
         font-size:4px;
          padding :5px;
 
@@ -1245,7 +1245,7 @@ src:url("Raleway/Raleway-Bold.ttf");
     .overlay a{
         font-size: 15px;
     }
-    #a{
+    .a{
         font-size:2px;
     }
     .b{
