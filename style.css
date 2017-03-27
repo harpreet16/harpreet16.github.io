@@ -41,6 +41,10 @@ hr {
     margin-bottom: 60px;
 
 }
+.hr1{
+    text-align: center;
+    margin-left: 48%;
+}
 
 #myCarousel .carousel-indicators li{
     border:0px;
