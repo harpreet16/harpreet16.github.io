@@ -558,6 +558,7 @@ src:url("Raleway/Raleway-Bold.ttf");
 
 .img_cup{
      opacity: 0.75;
+     position: relative;
 }
 .img_cup:hover{
     opacity: 0.3;
@@ -781,10 +782,10 @@ src:url("Raleway/Raleway-Bold.ttf");
     }
     
     .img_man{
-        min-height: 456px;
+        min-height: 472px;
     }
     .img_man_over{
-        min-height: 456px;
+        min-height: 472px;
     }
     
 }
@@ -943,13 +944,19 @@ src:url("Raleway/Raleway-Bold.ttf");
     }
     .img-responsive.img_cup.right {
     border-right: 0px;
+    padding-left: 25%;
+    height: 204px;
     }
     .img-responsive.img_cup.left {
     border-left: 0px;
+    padding-left: 19%;
     }
-   
+}
+@media only screen and (max-width: 768px){
+     .img-responsive.img_cup.right {
+        height: auto;
+    }
 
-   
 }
 @media only screen and (max-width: 750px){
 
@@ -963,10 +970,31 @@ src:url("Raleway/Raleway-Bold.ttf");
      .button_pos {
     padding-left: 42%;
 }
+.img-responsive.img_cup.right {
+    padding-left: 24%;
+    }
+    .img-responsive.img_cup.left {
+    padding-left: 17%;
+    }
 
     
 }
+@media only screen and (max-width: 700px){
+    .img-responsive.img_cup.right {
+    padding-left: 22%;
+    }
+    .img-responsive.img_cup.left {
+   padding-left: 15%;
 
+}
+@media only screen and (max-width: 680px){
+    .img-responsive.img_cup.right {
+    padding-left: 20%;
+    }
+    .img-responsive.img_cup.left {
+   padding-left: 12%;
+
+}
 
 
 
@@ -1074,8 +1102,23 @@ src:url("Raleway/Raleway-Bold.ttf");
    .img_man_over{
         min-height: 400px;
     }  
+    .img-responsive.img_cup.right {
+    padding-left: 18%;
+    }
+    .img-responsive.img_cup.left {
+    padding-left: 8%;
+    }
 
 }
+/*@media only screen and (max-width: 650px){
+    .img-responsive.img_cup.right {
+    padding-left: 13%;
+    }
+    .img-responsive.img_cup.left {
+    padding-left: 3%;
+    }
+
+} */
 
 
 
@@ -1197,6 +1240,13 @@ src:url("Raleway/Raleway-Bold.ttf");
     .img_over{
         min-height: 220px;
     }
+     .img-responsive.img_cup.right {
+    padding-left: 11%;
+    }
+    .img-responsive.img_cup.left {
+    padding-left: 0%;
+    }
+
     .btn.btn-default
     {
     font-size: 8px;
@@ -1227,12 +1277,21 @@ src:url("Raleway/Raleway-Bold.ttf");
     left: -51px;
     font-size: 25px;
     }
+       .img-responsive.img_cup.right {
+    padding-left: 5%;
+    }
+}
 
    @media only screen and (max-width: 380px) {
     .slick-dots li button::before {
     left: -32px;
     font-size: 25px;
     }
+       .img-responsive.img_cup.right {
+    padding-left: 0%;
+    }
+   
+}
 
 
 
