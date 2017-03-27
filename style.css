@@ -423,7 +423,7 @@ src:url("Raleway/Raleway-Bold.ttf");
     background-image: url("webassets/man.jpg");
     background-position: center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 517px;
     width: 100%;
     z-index: 2;
     position: relative;
@@ -431,7 +431,7 @@ src:url("Raleway/Raleway-Bold.ttf");
 .img_man_over{
     background-color: rgba(0,0,0,0.5);
     z-index: 4;
-    min-height: 500px;
+    min-height: 517px;
 
 }
 .img_man:hover .img_man_over{
