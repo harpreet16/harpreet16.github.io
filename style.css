@@ -671,11 +671,16 @@ src:url("Raleway/Raleway-Bold.ttf");
     margin-right: 2%;
 }
 
-.button_pos{
-     margin-top: 4%;
-     padding-left: 43%;
-
+.button1_pos{
+     text-align: center;
+     padding-top: 4%;
 }
+.button2_pos{
+     text-align: center;
+     padding-top: 2%;
+     padding-bottom: 3%;
+}
+
 
 .btn.btn-default
     {
@@ -685,11 +690,9 @@ src:url("Raleway/Raleway-Bold.ttf");
     border: 2px solid black; 
     letter-spacing: 1px;
     font-family:raleway;
-    padding-right: 4%;
-    padding-left: 4%;
-    background-color: transparent;
-
-      
+    padding-right: 2%;
+    padding-left: 2%;
+    background-color: transparent;  
     } 
     .btn.btn-default.but_2:hover{
         color:white;
@@ -967,9 +970,9 @@ src:url("Raleway/Raleway-Bold.ttf");
     .border:first-child {
     border-right: 1px solid #e0dedb;
     }
-     .button_pos {
+    /* .button_pos {
     padding-left: 42%;
-}
+}*/
 .img-responsive.img_cup.right {
     padding-left: 24%;
     }
@@ -1035,9 +1038,9 @@ src:url("Raleway/Raleway-Bold.ttf");
 
     } 
 
-     .button_pos {
+     /*.button_pos {
     padding-left: 41%;
-}
+}*/
    
     #mount{
         font-size: 20px;
@@ -1175,9 +1178,9 @@ src:url("Raleway/Raleway-Bold.ttf");
         font-size: 10px;    
 
     } 
-     .button_pos {
+   /*  .button_pos {
     padding-left: 41%;
-}
+}*/
    
    
     #mount{
@@ -1250,6 +1253,7 @@ src:url("Raleway/Raleway-Bold.ttf");
     .btn.btn-default
     {
     font-size: 8px;
+
     } 
      #myCarousel .carousel-indicators li
     {
@@ -1322,9 +1326,9 @@ src:url("Raleway/Raleway-Bold.ttf");
         font-size: 10px;    
 
    }
-   .button_pos {
+   /*.button_pos {
     padding-left: 36%;
-    }
+    }*/
     .slick-dots li{
     margin:0px -4px;
    } 
