@@ -940,10 +940,10 @@ src:url("Raleway/Raleway-Bold.ttf");
         min-height: 400px;
     }
     #cup{
-        left: 42%;
+        left: 41%;
     }
     #man{
-        left: 42%;
+        left: 41%;
     }
     .img-responsive.img_cup.right {
     border-right: 0px;
@@ -1104,6 +1104,12 @@ src:url("Raleway/Raleway-Bold.ttf");
     }
    .img_man_over{
         min-height: 400px;
+    }
+     #cup{
+        left: 40%;
+    }
+    #man{
+        left: 40%;
     }  
     .img-responsive.img_cup.right {
     padding-left: 18%;
@@ -1195,8 +1201,11 @@ src:url("Raleway/Raleway-Bold.ttf");
         left: 25%;
     }
     #cup{
-        left: 32%;
+        left: 34%;
     }
+     #man{
+        left: 30%;
+    }  
     .twoimg{
          min-height: 200px;
 
@@ -1336,9 +1345,13 @@ src:url("Raleway/Raleway-Bold.ttf");
     left: -30px;
     top: 0px;
     }
+     #cup{
+        left: 27%;
+    }
      
     #man{
         font-size: 25px;
+        left: 27%;
     }
     .twoimg{
          min-height: 100px;
